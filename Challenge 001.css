@@ -1,0 +1,245 @@
+html {
+	font-family: high tower text;
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+.header {
+	display: flex;
+}
+
+.ulDiv {
+	display: flex;
+	margin-left: auto;
+}
+
+.ulDiv > li {
+	padding:  0 1em;
+}
+
+.header > li {
+	padding: 0 .5em;
+}
+
+.header2 {
+	border-top: 1px solid #D8E0E7;
+	display: flex;	
+	padding: 0 .5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.header2 > li {
+	padding: 0 0.5em;
+}
+
+.img {
+	/* text-align: center; */
+	display: flex;
+	justify-content: center;
+	height: 33em;
+}
+
+.para {
+	margin: auto auto;
+	padding-top: 2em;
+	max-width: 600px;
+}
+
+.firstP {
+	font-size: 1.3em;
+	font-weight: 700;
+}
+
+span {
+	color: blue;
+}
+
+.divYellow {
+	display: flex;
+	margin-top: 5em;
+	position: relative;
+}
+
+.close2yellowimg {
+	position: absolute;
+	left: 12em;
+	top: 5em;
+	width: 30em;
+	height: 35em;
+}
+
+.yellowDiv {
+	margin-left: auto;
+	width: 60%;
+	height: 700px;
+	background-color: #FAFFA9;
+}
+
+.yellowDiv > img {
+	position: absolute;
+	top: 30%;
+	right: 15%;
+}
+
+.whyAbleton {
+	display: flex;
+	flex-direction: column;	
+}
+
+.whyAbleton > img {
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+	margin-top: 5em;
+}
+
+.whyAbletonP {
+	margin-left: 29%;
+	margin-top: 0;
+	font-size: .8em;
+}
+
+.containerMint {
+	margin-top: 5em;
+	display: flex;
+	position: relative;
+}
+
+.divMintGreen {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding-left: 5em;
+	background-color: #B5FFC2;
+	width: 45em;
+	height: 57em;
+}
+
+.img1, .img2  {
+	display: flex;
+	width: 27em;
+	height: 21em;
+}
+
+.img3 {
+	height: 30em;
+	width: 33em;
+	padding-top: 12em;
+	position: absolute;
+	left: 40em;
+}
+
+.meetmakers {
+	display: flex;
+	flex-direction: column;	
+}
+
+.meetmakers > img {
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+	margin-top: 6em;
+}
+
+.meetmakersP {
+	margin-left: 18%;
+	margin-top: 0;
+	font-size: .8em;
+}
+
+.daddyPurple {
+	display: flex;
+	flex-direction: row;
+}
+
+.containerPurple {
+	background-color: #D5B3FF;
+	height: 40em;
+	width: 60em;
+	margin: 7em auto;
+	position: relative;
+	
+}
+
+.purpleimg {
+	position: absolute;
+	
+}
+
+.img4 {
+	height: 20em;
+	width: 25em;
+	position: absolute;
+	left: 5em;
+	top: 17em;
+}
+
+.img5 {
+	height: 30em;
+	width: 30em;
+	position: absolute;
+	top: 12.5em;
+	left: 53.6em;
+}
+
+.containerGrey {
+	display: flex;
+	margin-left: 12em;
+	margin-top: 7em;
+}
+
+.grey {
+	background-color: #B1C5FF;
+	height: 30em;
+	width: 30em;
+
+}
+
+.img6 {
+	height: 30em;
+	width: 30em;
+}
+
+.greyP {
+	padding: 9em 5em;
+}
+
+footer {
+	border-top: 1px solid #D8E0E7;
+	margin-top: 5em;
+	padding-top: 4em;
+}
+
+h1 {
+	margin-left: 2.5em;
+}
+
+.final {
+	display: grid;
+	grid-template-columns: 400px 400px 400px;
+	margin: 0 5em;
+}
+
+input, select { 
+    height: 2em;
+    border: 2px solid grey;
+    border-radius: 0.4em;
+}
+
+select {
+	width: 8em;
+}
+
+button {
+    background-color: blue;
+	color: whitesmoke;
+    font-weight: 600;
+	border: none;
+	height: 2.2em;
+	border-radius: 0.4em;
+	margin-left: 0;
+}
